@@ -8,7 +8,6 @@ dist/
 .env
 
 # Logs
-logs/
 *.log
 
 # TypeScript cache
