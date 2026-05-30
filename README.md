@@ -332,18 +332,55 @@ enableSlotSkipSim()
 
 All bundles verifiable on [Solana Devnet Explorer](https://explorer.solana.com/?cluster=devnet)
 
-| Bundle | Slot | Tip | Status |
-|---|---|---|---|
-| 5903fcb143... | 423180065 | 2000 | ✅ Finalized |
-| 52229d0c38... | 423180146 | 1182 | ✅ Finalized |
-| a974b083da... | 423180245 | 5000 | ✅ Finalized |
-| 76ee9a9061... | 423180355 | 1200 | ✅ Finalized |
-| 5df04c273b... | 423180442 | 5000 | ✅ Finalized |
-| 4fd64baee6... | 423180521 | 5000 | ✅ Finalized |
-| 77fee7f7c5... | 423180580 | 1000 | ✅ Finalized |
-| f6139d1b89... | 423180618 | 5000 | ✅ Finalized |
-| 5c2eaccc6d... | 423180777 | 6427 | 🔴 Fault Injection 1 |
-| 0ba01c519e... | 423180835 | 1070 | 🔴 Fault Injection 2 |
+**✅ Bundle 1** — Slot `423180065` — Tip `2000` lamports
+```
+5903fcb1434853a04a71f3c8b1f67b5f9489711ea317872bb55c7e8f6ada2ecb
+```
+
+**✅ Bundle 2** — Slot `423180146` — Tip `1182` lamports
+```
+52229d0c3839f0cf7f2091b1ac79d6f9ab43feb0ede48b230a70d699ce89415c
+```
+
+**✅ Bundle 3** — Slot `423180245` — Tip `5000` lamports
+```
+a974b083da0061f2a298c39b4dd046048625325832bab74caecdae5696c7c712
+```
+
+**✅ Bundle 4** — Slot `423180355` — Tip `1200` lamports
+```
+76ee9a906114122505331ec2c30ced81c99806c25c7e35c08955855112e0091d
+```
+
+**✅ Bundle 5** — Slot `423180442` — Tip `5000` lamports
+```
+5df04c273b1ec4c0d60120dac5e008cb04ca8157a839f51ce803b6f1191ca85f
+```
+
+**✅ Bundle 6** — Slot `423180521` — Tip `5000` lamports
+```
+4fd64baee6dc268317aa72561e8208e8e3599be2d4e8bb7e3100c3d2e01ebb1e
+```
+
+**✅ Bundle 7** — Slot `423180580` — Tip `1000` lamports
+```
+77fee7f7c50c35625c547a8fa5b24f4665d5c5a86c666436f0685f7b14e14308
+```
+
+**✅ Bundle 8** — Slot `423180618` — Tip `5000` lamports
+```
+f6139d1b8980fbebc21f5835206bb669ac6296d7b1ac6f634009b1009dab667b
+```
+
+**🔴 Fault Injection 1** — Slot `423180777` — Tip `6427` lamports — Blockhash Expiry Simulated
+```
+5c2eaccc6d3020330a6a1fd72155583b477ede7a5cd3a3decbed8bb3664f1f9a
+```
+
+**🔴 Fault Injection 2** — Slot `423180835` — Tip `1070` lamports — Blockhash Expiry Simulated
+```
+0ba01c519e5bc07d9fd3a8dca8957684e6f7d1b90759f6aafbcc8ce1c0357e36
+```
 
 ---
 
