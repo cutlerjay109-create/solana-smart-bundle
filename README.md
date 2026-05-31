@@ -8,6 +8,26 @@ A production-grade AI-powered Solana transaction infrastructure stack built for 
 
 ---
 
+## 📡 Live Infrastructure Proof
+
+Real usage from SolInfra dashboard showing our system ran on production infrastructure.
+
+### gRPC Stream — 384.45 MB Streamed (Frankfurt Region)
+
+
+![gRPC Usage](docs/diagrams/Screenshot_20260530-212012.jpg)
+
+
+
+### RPC Usage — 1,222 Calls (getSlot: 1,153 | getLeaderSchedule: 65 | getBalance: 4)
+
+
+![RPC Usage](docs/diagrams/Screenshot_20260530-211944~2.jpg)
+
+
+
+---
+
 ## 📖 Overview
 
 Solana Smart Bundle is a production-grade transaction infrastructure stack that combines:
