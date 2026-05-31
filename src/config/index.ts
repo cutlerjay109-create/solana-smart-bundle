@@ -21,7 +21,7 @@ export const config = {
 
   openai: {
     apiKey: process.env.OPENAI_API_KEY || "",
-    apiUrl: process.env.OPENAI_API_URL || "https://api.freemodel.dev/v1/chat/completions",
+    apiUrl: process.env.OPENAI_API_URL || "https://api.openai.com/v1/chat/completions",
     model: process.env.OPENAI_MODEL || "gpt-5.5",
   },
 

@@ -95,7 +95,7 @@ The architecture document includes:
 | Blockchain | Solana Devnet |
 | Bundle Submission | Jito Block Engine Dallas Testnet |
 | gRPC Streaming | Yellowstone / SolInfra |
-| AI Model | GPT-5.5 via freemodel.dev |
+| AI Model | GPT-5.5 |
 | RPC Provider | SolInfra Frankfurt |
 | Logging | Winston + JSON files |
 
@@ -154,7 +154,7 @@ JITO_TIP_ACCOUNT=96gYZGLnJYVFmbjzopPSU6QiEV5fGqZNyN9nmNhvrZU5
 
 # AI
 OPENAI_API_KEY=YOUR_API_KEY
-OPENAI_API_URL=https://api.freemodel.dev/v1/chat/completions
+OPENAI_API_URL=https://api.openai.com/v1/chat/completions
 OPENAI_MODEL=gpt-5.5
 
 # Wallet
