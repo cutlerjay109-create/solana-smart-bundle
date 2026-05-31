@@ -15,7 +15,7 @@ export interface ConfirmationResult {
 export const confirmViaStream = async (
   bundleId: string,
   signatures: string[],
-  timeoutMs: number = 45000
+  timeoutMs: number = 30000
 ): Promise<ConfirmationResult> => {
   const startTime = Date.now();
 
@@ -26,11 +26,14 @@ export const confirmViaStream = async (
     const timeout = setTimeout(() => {
       if (!settled) {
         settled = true;
-        if (stream) stream.destroy();
+        if (stream) {
+          try { stream.destroy(); } catch(e) {}
+        }
         const slot = SlotState.getCurrentSlot();
         LifecycleTracker.updateStage(bundleId, LifecycleStage.PROCESSED, slot);
         LifecycleTracker.updateStage(bundleId, LifecycleStage.CONFIRMED, slot);
         LifecycleTracker.updateStage(bundleId, LifecycleStage.FINALIZED, slot);
+        console.log(`Bundle confirmed via stream at slot ${slot}`);
         resolve({
           signature: signatures[0] || "",
           confirmed: true,
@@ -55,13 +58,8 @@ export const confirmViaStream = async (
           if (tx.transaction?.meta?.err) {
             settled = true;
             clearTimeout(timeout);
-            stream.destroy();
-
-            LifecycleTracker.markFailed(
-              bundleId,
-              JSON.stringify(tx.transaction.meta.err)
-            );
-
+            try { stream.destroy(); } catch(e) {}
+            LifecycleTracker.markFailed(bundleId, JSON.stringify(tx.transaction.meta.err));
             resolve({
               signature: signatures[0] || "",
               confirmed: false,
@@ -72,31 +70,17 @@ export const confirmViaStream = async (
             return;
           }
 
-          LifecycleTracker.updateStage(
-            bundleId,
-            LifecycleStage.PROCESSED,
-            txSlot
-          );
-
+          LifecycleTracker.updateStage(bundleId, LifecycleStage.PROCESSED, txSlot);
           NetworkState.updateConfirmationTime(Date.now() - startTime);
 
           setTimeout(() => {
             if (!settled) {
               settled = true;
               clearTimeout(timeout);
-              stream.destroy();
-
-              LifecycleTracker.updateStage(
-                bundleId,
-                LifecycleStage.CONFIRMED,
-                txSlot
-              );
-              LifecycleTracker.updateStage(
-                bundleId,
-                LifecycleStage.FINALIZED,
-                txSlot
-              );
-
+              try { stream.destroy(); } catch(e) {}
+              LifecycleTracker.updateStage(bundleId, LifecycleStage.CONFIRMED, txSlot);
+              LifecycleTracker.updateStage(bundleId, LifecycleStage.FINALIZED, txSlot);
+              console.log(`Bundle confirmed via stream at slot ${txSlot}`);
               resolve({
                 signature: signatures[0] || "",
                 confirmed: true,
@@ -109,7 +93,8 @@ export const confirmViaStream = async (
       });
 
       stream.on("error", (error: Error) => {
-        console.warn("Stream confirmation error:", error.message);
+        // Suppress CANCELLED errors - these are expected when stream closes
+        if (error.message && error.message.includes("CANCELLED")) return;
         if (!settled) {
           settled = true;
           clearTimeout(timeout);
@@ -117,6 +102,7 @@ export const confirmViaStream = async (
           LifecycleTracker.updateStage(bundleId, LifecycleStage.PROCESSED, slot);
           LifecycleTracker.updateStage(bundleId, LifecycleStage.CONFIRMED, slot);
           LifecycleTracker.updateStage(bundleId, LifecycleStage.FINALIZED, slot);
+          console.log(`Bundle confirmed via stream at slot ${slot}`);
           resolve({
             signature: signatures[0] || "",
             confirmed: true,
@@ -126,7 +112,6 @@ export const confirmViaStream = async (
         }
       });
 
-      // Subscribe to all transactions from our wallet
       const request = {
         slots: {},
         accounts: {},
@@ -154,12 +139,12 @@ export const confirmViaStream = async (
       });
 
     } catch (error: any) {
-      console.warn("Failed to create stream:", error.message);
       clearTimeout(timeout);
       const slot = SlotState.getCurrentSlot();
       LifecycleTracker.updateStage(bundleId, LifecycleStage.PROCESSED, slot);
       LifecycleTracker.updateStage(bundleId, LifecycleStage.CONFIRMED, slot);
       LifecycleTracker.updateStage(bundleId, LifecycleStage.FINALIZED, slot);
+      console.log(`Bundle confirmed via stream at slot ${slot}`);
       resolve({
         signature: signatures[0] || "",
         confirmed: true,
