@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "bundleId": "43add889-9b59-4d35-abaf-e115133cc857",
+    "failureType": "BUNDLE_FAILURE",
+    "reason": "Jito bundle submission failed",
+    "slot": 423180671,
+    "timestamp": 1780153736673,
+    "loggedAt": "2026-05-30T15:08:56.677Z"
+  },
+  {
+    "bundleId": "43add889-9b59-4d35-abaf-e115133cc857",
+    "failureType": "EXPIRED_BLOCKHASH",
+    "reason": "Blockhash expired - slot age 160 exceeded 150 slot maximum",
+    "slot": 423180777,
+    "timestamp": 1748620137985,
+    "signature": "5c2eaccc6d3020330a6a1fd72155583b477ede7a5cd3a3decbed8bb3664f1f9a",
+    "tipLamports": 6427,
+    "faultInjected": true,
+    "loggedAt": "2026-05-31T04:31:44.700096"
+  },
+  {
+    "bundleId": "86e949d6-5cd2-4c7e-b3cd-83af34e9021b",
+    "failureType": "EXPIRED_BLOCKHASH",
+    "reason": "Blockhash expired - slot age 160 exceeded 150 slot maximum",
+    "slot": 423180835,
+    "timestamp": 1748620168944,
+    "signature": "0ba01c519e5bc07d9fd3a8dca8957684e6f7d1b90759f6aafbcc8ce1c0357e36",
+    "tipLamports": 1070,
+    "faultInjected": true,
+    "loggedAt": "2026-05-31T04:31:44.700306"
+  }
+]
