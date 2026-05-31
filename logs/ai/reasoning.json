@@ -1153,5 +1153,2735 @@
       }
     },
     "timestamp": "2026-05-30T15:09:46.211Z"
+  },
+  {
+    "id": "be38f51c-4c00-46c4-94aa-ae41d74272b4",
+    "bundleId": "89fb9749-f198-4be7-9da9-e45617042fc4",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "89fb9749-f198-4be7-9da9-e45617042fc4",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780202725929
+      },
+      "currentSlot": 423304204,
+      "slotAge": 2429
+    },
+    "reasoning": "Congestion low; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion low; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:45:34.427Z"
+  },
+  {
+    "id": "bf9d1c1c-0fda-46da-97d2-25c538c66dc9",
+    "bundleId": "89fb9749-f198-4be7-9da9-e45617042fc4",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "89fb9749-f198-4be7-9da9-e45617042fc4",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:44:08+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000011380000000000002,
+          "landed_tips_75th_percentile": 0.000002058,
+          "landed_tips_95th_percentile": 0.0002026,
+          "landed_tips_99th_percentile": 0.0007866518400000047,
+          "ema_landed_tips_50th_percentile": 0.0000012444277180449775
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000011380000000000002,
+        "minTip50th": 0.0000011380000000000002,
+        "maxTip50th": 0.0000011380000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780202735045
+      },
+      "currentSlot": 423304234
+    },
+    "reasoning": "Using the 50th percentile tip of about 1138 lamports, rounded up slightly for reliability under low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion score, healthy network metrics, and stable tip trend indicate normal landing conditions."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 1200,
+        "percentileUsed": "50th",
+        "reasoning": "Using the 50th percentile tip of about 1138 lamports, rounded up slightly for reliability under low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:45:43.263Z"
+  },
+  {
+    "id": "a45b9366-5888-4519-bc35-d39d463d0c1d",
+    "bundleId": "b62c88a2-b0ac-442d-9157-cdae2815a479",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "b62c88a2-b0ac-442d-9157-cdae2815a479",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2373.82,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202757885
+      },
+      "currentSlot": 423304287,
+      "slotAge": 2313
+    },
+    "reasoning": "Congestion is low, submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable score support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low, submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:46:07.797Z"
+  },
+  {
+    "id": "82559e37-0008-419e-870d-7ac1bf20832e",
+    "bundleId": "b62c88a2-b0ac-442d-9157-cdae2815a479",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "b62c88a2-b0ac-442d-9157-cdae2815a479",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:44:37+00:00",
+          "landed_tips_25th_percentile": 0.000001024,
+          "landed_tips_50th_percentile": 0.0000016005000000000002,
+          "landed_tips_75th_percentile": 0.0000775,
+          "landed_tips_95th_percentile": 0.0008736875,
+          "landed_tips_99th_percentile": 0.00099825,
+          "ema_landed_tips_50th_percentile": 0.0000013890210708573978
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000016005000000000002,
+        "minTip50th": 0.0000016005000000000002,
+        "maxTip50th": 0.0000016005000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2373.82,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202768430
+      },
+      "currentSlot": 423304350
+    },
+    "reasoning": "Using the 50th percentile with a small safety margin for reliable landing while keeping cost low.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Network is healthy with low congestion and stable tip trend; median landed tip is very low."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "Using the 50th percentile with a small safety margin for reliable landing while keeping cost low.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:46:14.864Z"
+  },
+  {
+    "id": "28605058-a51f-47a8-b82a-b171fa593e07",
+    "bundleId": "c43ae2af-80ae-4017-9dd4-d80dc19c1e44",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "c43ae2af-80ae-4017-9dd4-d80dc19c1e44",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2625.08,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202789124
+      },
+      "currentSlot": 423304365,
+      "slotAge": 2366
+    },
+    "reasoning": "Congestion low; submit immediately per rules.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable score despite no leader window."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion low; submit immediately per rules.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:46:36.300Z"
+  },
+  {
+    "id": "63db336b-3003-4030-8876-7217adfba78c",
+    "bundleId": "c43ae2af-80ae-4017-9dd4-d80dc19c1e44",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "c43ae2af-80ae-4017-9dd4-d80dc19c1e44",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:44:37+00:00",
+          "landed_tips_25th_percentile": 0.000001024,
+          "landed_tips_50th_percentile": 0.0000016005000000000002,
+          "landed_tips_75th_percentile": 0.0000775,
+          "landed_tips_95th_percentile": 0.0008736875,
+          "landed_tips_99th_percentile": 0.00099825,
+          "ema_landed_tips_50th_percentile": 0.0000013890210708573978
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000016005000000000002,
+        "minTip50th": 0.0000016005000000000002,
+        "maxTip50th": 0.0000016005000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2625.08,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202796304
+      },
+      "currentSlot": 423304420
+    },
+    "reasoning": "50th percentile is about 1600 lamports; rounded up to 2000 for reliable landing while staying cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 2000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is about 1600 lamports; rounded up to 2000 for reliable landing while staying cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:46:39.885Z"
+  },
+  {
+    "id": "97e47940-c3ca-4c37-b6ba-e3c7de77a8df",
+    "bundleId": "1c5e877e-b59a-4e7b-8a20-7db3fd798049",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "1c5e877e-b59a-4e7b-8a20-7db3fd798049",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2821.9,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202818406
+      },
+      "currentSlot": 423304431,
+      "slotAge": 3162
+    },
+    "reasoning": "Congestion is low, submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion; leader schedule unavailable."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low, submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:47:05.060Z"
+  },
+  {
+    "id": "7eb392c5-7d66-4a84-b68b-08d7b13fc6fa",
+    "bundleId": "1c5e877e-b59a-4e7b-8a20-7db3fd798049",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "1c5e877e-b59a-4e7b-8a20-7db3fd798049",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:45:39+00:00",
+          "landed_tips_25th_percentile": 0.000001001,
+          "landed_tips_50th_percentile": 0.000001428,
+          "landed_tips_75th_percentile": 0.000002047,
+          "landed_tips_95th_percentile": 0.00003798259999999988,
+          "landed_tips_99th_percentile": 0.00007989571999999992,
+          "ema_landed_tips_50th_percentile": 0.0000013411412857183143
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001428,
+        "minTip50th": 0.000001428,
+        "maxTip50th": 0.000001428,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2821.9,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202825671
+      },
+      "currentSlot": 423304494
+    },
+    "reasoning": "Low congestion supports using the 50th percentile landed tip for good cost efficiency.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion with stable tip trend and healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 1428,
+        "percentileUsed": "50th",
+        "reasoning": "Low congestion supports using the 50th percentile landed tip for good cost efficiency.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:47:15.001Z"
+  },
+  {
+    "id": "119933de-cf07-4e09-ae47-017135746a07",
+    "bundleId": "8f02fa1a-8366-4eb5-9206-b05cbb1f4217",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "8f02fa1a-8366-4eb5-9206-b05cbb1f4217",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2411.98,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202851207
+      },
+      "currentSlot": 423304522,
+      "slotAge": 2307
+    },
+    "reasoning": "Congestion below 90; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Favorable conditions; congestion low despite no leader data."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion below 90; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:47:35.996Z"
+  },
+  {
+    "id": "925d90fe-e0a3-42d7-a157-5c5adeda2ae0",
+    "bundleId": "8f02fa1a-8366-4eb5-9206-b05cbb1f4217",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "8f02fa1a-8366-4eb5-9206-b05cbb1f4217",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:46:09+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000011635000000000002,
+          "landed_tips_75th_percentile": 0.00000153475,
+          "landed_tips_95th_percentile": 0.00003282414999999987,
+          "landed_tips_99th_percentile": 0.00009055804000000004,
+          "ema_landed_tips_50th_percentile": 0.000002142909164412428
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000011635000000000002,
+        "minTip50th": 0.0000011635000000000002,
+        "maxTip50th": 0.0000011635000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2411.98,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202856615
+      },
+      "currentSlot": 423304572
+    },
+    "reasoning": "Slightly above the 50th percentile and EMA for efficient landing under low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable 50th percentile tips indicate no need for aggressive tipping."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 2000,
+        "percentileUsed": "50th",
+        "reasoning": "Slightly above the 50th percentile and EMA for efficient landing under low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:47:46.148Z"
+  },
+  {
+    "id": "3e072605-83ba-4774-ad97-c22a884804d6",
+    "bundleId": "ab92df1b-f81c-4085-bc52-71c9efcf5a04",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "ab92df1b-f81c-4085-bc52-71c9efcf5a04",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2577.12,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202881818
+      },
+      "currentSlot": 423304600,
+      "slotAge": 2476
+    },
+    "reasoning": "Congestion below 90, submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable conditions; leader delay ignored per rules."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion below 90, submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": [
+        "No upcoming leaders found",
+        "Slot age elevated"
+      ]
+    },
+    "timestamp": "2026-05-31T04:48:09.138Z"
+  },
+  {
+    "id": "e19839cc-d1ef-49c6-9bb2-0160ae793592",
+    "bundleId": "ab92df1b-f81c-4085-bc52-71c9efcf5a04",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "ab92df1b-f81c-4085-bc52-71c9efcf5a04",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:46:37+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000010000000000000002,
+          "landed_tips_75th_percentile": 0.00000147675,
+          "landed_tips_95th_percentile": 0.00009599999999999912,
+          "landed_tips_99th_percentile": 0.00185300286000001,
+          "ema_landed_tips_50th_percentile": 0.0000011079372608387346
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000010000000000000002,
+        "minTip50th": 0.0000010000000000000002,
+        "maxTip50th": 0.0000010000000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2577.12,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202889803
+      },
+      "currentSlot": 423304656
+    },
+    "reasoning": "Healthy network and low congestion make the 50th percentile tip sufficient and cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market with 50th percentile at the minimum observed level."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 1000,
+        "percentileUsed": "50th",
+        "reasoning": "Healthy network and low congestion make the 50th percentile tip sufficient and cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:48:15.997Z"
+  },
+  {
+    "id": "a360305a-8a60-4b63-a561-0c1b3b5c8421",
+    "bundleId": "69eff6c0-7723-4ffa-be40-9c380ab41ddd",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "69eff6c0-7723-4ffa-be40-9c380ab41ddd",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2605.88,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202910326
+      },
+      "currentSlot": 423304671,
+      "slotAge": 2300
+    },
+    "reasoning": "Congestion is low, submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low, submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:48:41.253Z"
+  },
+  {
+    "id": "cc119d05-0688-41e3-8a31-3da89d950299",
+    "bundleId": "69eff6c0-7723-4ffa-be40-9c380ab41ddd",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "69eff6c0-7723-4ffa-be40-9c380ab41ddd",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:47:06+00:00",
+          "landed_tips_25th_percentile": 0.000001001,
+          "landed_tips_50th_percentile": 0.000001456,
+          "landed_tips_75th_percentile": 0.000006698,
+          "landed_tips_95th_percentile": 0.0004651959999999987,
+          "landed_tips_99th_percentile": 0.001013428,
+          "ema_landed_tips_50th_percentile": 0.0000016012586890951495
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001456,
+        "minTip50th": 0.000001456,
+        "maxTip50th": 0.000001456,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2605.88,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202921870
+      },
+      "currentSlot": 423304705
+    },
+    "reasoning": "50th percentile tip is sufficient under low congestion and stable conditions.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion, healthy network metrics, and stable tip trend support using a conservative percentile."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 1456,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile tip is sufficient under low congestion and stable conditions.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:48:47.281Z"
+  },
+  {
+    "id": "e4f846e1-6e89-40c6-8d0f-d3af0d9c0bcf",
+    "bundleId": "70ef1280-0c94-45ac-a13c-c2bdae23c88d",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "70ef1280-0c94-45ac-a13c-c2bdae23c88d",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2322.44,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202940375
+      },
+      "currentSlot": 423304775,
+      "slotAge": 2289
+    },
+    "reasoning": "Congestion below threshold; favorable conditions.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network, low congestion; submit despite no leader window."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion below threshold; favorable conditions.",
+        "confidenceScore": 85
+      },
+      "riskFactors": [
+        "No upcoming leaders found"
+      ]
+    },
+    "timestamp": "2026-05-31T04:49:05.613Z"
+  },
+  {
+    "id": "1bafb473-b1e2-41df-8a54-fac74a77d035",
+    "bundleId": "70ef1280-0c94-45ac-a13c-c2bdae23c88d",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "70ef1280-0c94-45ac-a13c-c2bdae23c88d",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:47:06+00:00",
+          "landed_tips_25th_percentile": 0.000001001,
+          "landed_tips_50th_percentile": 0.000001456,
+          "landed_tips_75th_percentile": 0.000006698,
+          "landed_tips_95th_percentile": 0.0004651959999999987,
+          "landed_tips_99th_percentile": 0.001013428,
+          "ema_landed_tips_50th_percentile": 0.0000016012586890951495
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001456,
+        "minTip50th": 0.000001456,
+        "maxTip50th": 0.000001456,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2322.44,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202945617
+      },
+      "currentSlot": 423304763
+    },
+    "reasoning": "A modest bump above the median tip should land efficiently under low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "A modest bump above the median tip should land efficiently under low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:49:20.293Z"
+  },
+  {
+    "id": "fb9da5f2-bded-4842-aea3-ab1c4505cf67",
+    "bundleId": "96a878f6-2de3-4673-a6dc-89a6ed59c69e",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "96a878f6-2de3-4673-a6dc-89a6ed59c69e",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2667.42,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780202975562
+      },
+      "currentSlot": 423304861,
+      "slotAge": 2393
+    },
+    "reasoning": "Congestion is low; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:49:39.861Z"
+  },
+  {
+    "id": "1aaddf68-1609-4f17-a052-8e927f6564a0",
+    "bundleId": "96a878f6-2de3-4673-a6dc-89a6ed59c69e",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "96a878f6-2de3-4673-a6dc-89a6ed59c69e",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:48:07+00:00",
+          "landed_tips_25th_percentile": 0.00000128,
+          "landed_tips_50th_percentile": 0.000001952,
+          "landed_tips_75th_percentile": 0.000008729,
+          "landed_tips_95th_percentile": 0.0001004564,
+          "landed_tips_99th_percentile": 0.0018721896599999985,
+          "ema_landed_tips_50th_percentile": 0.0000015453603788320188
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001952,
+        "minTip50th": 0.000001952,
+        "maxTip50th": 0.000001952,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2667.42,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780202980484
+      },
+      "currentSlot": 423304883
+    },
+    "reasoning": "50th percentile is 0.000001952 SOL, rounded to 2000 lamports due to healthy network and low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market; recent 50th percentile landed tip is sufficient for cost-efficient landing."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 2000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is 0.000001952 SOL, rounded to 2000 lamports due to healthy network and low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:49:45.059Z"
+  },
+  {
+    "id": "50f62a6b-d9fd-4acc-b1c2-bd7b49cbc3cd",
+    "bundleId": "34ec0e8b-9436-43c9-ad5b-591f8d057e5a",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "34ec0e8b-9436-43c9-ad5b-591f8d057e5a",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 1993.72,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780203000208
+      },
+      "currentSlot": 423304894,
+      "slotAge": 2394
+    },
+    "reasoning": "Congestion is low, so submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and low congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low, so submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T04:50:06.165Z"
+  },
+  {
+    "id": "38d7c1ce-504b-4a47-a417-3dbc09b34ade",
+    "bundleId": "34ec0e8b-9436-43c9-ad5b-591f8d057e5a",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "34ec0e8b-9436-43c9-ad5b-591f8d057e5a",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:48:07+00:00",
+          "landed_tips_25th_percentile": 0.00000128,
+          "landed_tips_50th_percentile": 0.000001952,
+          "landed_tips_75th_percentile": 0.000008729,
+          "landed_tips_95th_percentile": 0.0001004564,
+          "landed_tips_99th_percentile": 0.0018721896599999985,
+          "ema_landed_tips_50th_percentile": 0.0000015453603788320188
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001952,
+        "minTip50th": 0.000001952,
+        "maxTip50th": 0.000001952,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 1993.72,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780203006170
+      },
+      "currentSlot": 423304946
+    },
+    "reasoning": "50th percentile landed tip is 1952 lamports; rounded slightly up to 2000 for efficient landing probability.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion, healthy network metrics, and stable tip trend indicate no need for elevated tipping."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 2000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile landed tip is 1952 lamports; rounded slightly up to 2000 for efficient landing probability.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T04:50:12.347Z"
+  },
+  {
+    "id": "05f59083-4056-46a3-a703-d3e8aa42e102",
+    "bundleId": "a9a653fd-7bf6-4d2f-9e63-3951bb1abcc7",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "a9a653fd-7bf6-4d2f-9e63-3951bb1abcc7",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780203638268
+      },
+      "currentSlot": 423306501,
+      "slotAge": 2421
+    },
+    "reasoning": "Congestion is low; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:00:53.107Z"
+  },
+  {
+    "id": "0c37ea98-d298-4a80-9860-f23c597e2f98",
+    "bundleId": "a9a653fd-7bf6-4d2f-9e63-3951bb1abcc7",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "a9a653fd-7bf6-4d2f-9e63-3951bb1abcc7",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T04:59:39+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000012385,
+          "landed_tips_75th_percentile": 0.00000317325,
+          "landed_tips_95th_percentile": 0.00003240725,
+          "landed_tips_99th_percentile": 0.006805000000000044,
+          "ema_landed_tips_50th_percentile": 0.0000017074892806069737
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000012385,
+        "minTip50th": 0.0000012385,
+        "maxTip50th": 0.0000012385,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780203653746
+      },
+      "currentSlot": 423306546
+    },
+    "reasoning": "50th percentile is about 1239 lamports; 5000 lamports remains cost-efficient while improving landing reliability.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market; 50th percentile is sufficient with a small default buffer."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is about 1239 lamports; 5000 lamports remains cost-efficient while improving landing reliability.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:01:23.450Z"
+  },
+  {
+    "id": "54d5b866-1750-4966-9428-8e74e0796cbd",
+    "bundleId": "7f81a9b8-e506-4bda-8c71-3940909f0bd1",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "7f81a9b8-e506-4bda-8c71-3940909f0bd1",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780203830041
+      },
+      "currentSlot": 423306981,
+      "slotAge": 2392
+    },
+    "reasoning": "Low congestion; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Low congestion; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:03:59.462Z"
+  },
+  {
+    "id": "53bd4aa6-194e-4803-b36d-26cc830e52b3",
+    "bundleId": "7f81a9b8-e506-4bda-8c71-3940909f0bd1",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "7f81a9b8-e506-4bda-8c71-3940909f0bd1",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:02:39+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001024,
+          "landed_tips_75th_percentile": 0.000001538,
+          "landed_tips_95th_percentile": 0.00006593879999999953,
+          "landed_tips_99th_percentile": 0.0003920799999999939,
+          "ema_landed_tips_50th_percentile": 0.00000110512146302722
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001024,
+        "minTip50th": 0.000001024,
+        "maxTip50th": 0.000001024,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780203839997
+      },
+      "currentSlot": 423307043
+    },
+    "reasoning": "50th percentile is about 1024 lamports, but using a conservative default of 5000 lamports improves landing odds at minimal cost.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion with stable tip market and healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is about 1024 lamports, but using a conservative default of 5000 lamports improves landing odds at minimal cost.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:04:16.815Z"
+  },
+  {
+    "id": "1f684ff7-0e2a-45ae-959f-f4fae4ecb85d",
+    "bundleId": "0455fb1f-8ca2-42a2-b88d-13dcf0c44b22",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "0455fb1f-8ca2-42a2-b88d-13dcf0c44b22",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780203882018
+      },
+      "currentSlot": 423307142,
+      "slotAge": 2910
+    },
+    "reasoning": "Congestion is well below threshold.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Low congestion and favorable conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is well below threshold.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:04:53.005Z"
+  },
+  {
+    "id": "c4c12297-bb3a-436d-a569-63b31c04177f",
+    "bundleId": "0455fb1f-8ca2-42a2-b88d-13dcf0c44b22",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "0455fb1f-8ca2-42a2-b88d-13dcf0c44b22",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:03:38+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000014820000000000002,
+          "landed_tips_75th_percentile": 0.0000048610000000000006,
+          "landed_tips_95th_percentile": 0.00004185344999999921,
+          "landed_tips_99th_percentile": 0.00100000011,
+          "ema_landed_tips_50th_percentile": 0.0000025999037144344123
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000014820000000000002,
+        "minTip50th": 0.0000014820000000000002,
+        "maxTip50th": 0.0000014820000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780203893797
+      },
+      "currentSlot": 423307181
+    },
+    "reasoning": "50th percentile is low, so 5000 lamports provides a small buffer while remaining cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market support using a conservative default tip."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is low, so 5000 lamports provides a small buffer while remaining cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:05:02.344Z"
+  },
+  {
+    "id": "11cf04a1-d965-4c9b-b250-f575fade0248",
+    "bundleId": "6e792d48-4b08-469b-a8b8-37ddd0d3a0b4",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "6e792d48-4b08-469b-a8b8-37ddd0d3a0b4",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780204154433
+      },
+      "currentSlot": 423307832,
+      "slotAge": 2357
+    },
+    "reasoning": "Conditions favorable; submit now despite missing leader data.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Low congestion and healthy network favor immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Conditions favorable; submit now despite missing leader data.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:09:28.675Z"
+  },
+  {
+    "id": "8014efef-d1c4-4983-a741-10ca2100ee5d",
+    "bundleId": "6e792d48-4b08-469b-a8b8-37ddd0d3a0b4",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "6e792d48-4b08-469b-a8b8-37ddd0d3a0b4",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:08:07+00:00",
+          "landed_tips_25th_percentile": 0.0000020305000000000003,
+          "landed_tips_50th_percentile": 0.000003343,
+          "landed_tips_75th_percentile": 0.0000077685,
+          "landed_tips_95th_percentile": 0.00004329909999999987,
+          "landed_tips_99th_percentile": 0.00008865982000000002,
+          "ema_landed_tips_50th_percentile": 0.0000024719217033109467
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000003343,
+        "minTip50th": 0.000003343,
+        "maxTip50th": 0.000003343,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780204169347
+      },
+      "currentSlot": 423307844
+    },
+    "reasoning": "50th percentile is about 3343 lamports; 5000 lamports adds a small safety margin while staying cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend indicate normal landing conditions."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is about 3343 lamports; 5000 lamports adds a small safety margin while staying cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:09:40.226Z"
+  },
+  {
+    "id": "f9aa8dc6-9322-4179-9d9a-a74ed8b391b7",
+    "bundleId": "895f1f9a-8a6f-4319-831b-d815d5f3b909",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "895f1f9a-8a6f-4319-831b-d815d5f3b909",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 75,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Network health is degraded",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 8000,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 40,
+        "health": "degraded",
+        "lastUpdated": 1780204205314
+      },
+      "currentSlot": 423307931,
+      "slotAge": 2338
+    },
+    "reasoning": "Congestion below threshold; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Congestion acceptable; favorable submission conditions."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion below threshold; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:10:14.069Z"
+  },
+  {
+    "id": "f157787a-8c1f-44e8-9807-6538616e3be5",
+    "bundleId": "895f1f9a-8a6f-4319-831b-d815d5f3b909",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "895f1f9a-8a6f-4319-831b-d815d5f3b909",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:09:09+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001292,
+          "landed_tips_75th_percentile": 0.000003264,
+          "landed_tips_95th_percentile": 0.000050559999999999306,
+          "landed_tips_99th_percentile": 0.0001949457200000004,
+          "ema_landed_tips_50th_percentile": 0.0000024342420791080257
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001292,
+        "minTip50th": 0.000001292,
+        "maxTip50th": 0.000001292,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 25,
+        "level": "medium",
+        "factors": [
+          "High confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 8000,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "degraded",
+        "lastUpdated": 1780204214733
+      },
+      "currentSlot": 423307991
+    },
+    "reasoning": "Above the 75th percentile to improve landing probability while avoiding costly 95th percentile tips.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "degraded",
+        "trendDirection": "stable",
+        "reasoning": "Medium congestion with degraded health and elevated confirmation times."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "75th",
+        "reasoning": "Above the 75th percentile to improve landing probability while avoiding costly 95th percentile tips.",
+        "confidenceScore": 78
+      },
+      "riskAssessment": {
+        "landingProbability": 85,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:10:29.642Z"
+  },
+  {
+    "id": "b49f9804-b109-465b-a481-70d85be43bbe",
+    "bundleId": "62920c74-a756-4ea9-9d6e-ed345fed8348",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "62920c74-a756-4ea9-9d6e-ed345fed8348",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 75,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Network health is degraded",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 8000,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 40,
+        "health": "degraded",
+        "lastUpdated": 1780204249032
+      },
+      "currentSlot": 423308042,
+      "slotAge": 2727
+    },
+    "reasoning": "Congestion below threshold; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Congestion is moderate and conditions favor submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion below threshold; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:11:04.885Z"
+  },
+  {
+    "id": "8af35423-5779-4aa0-a637-4ab4396d4f2e",
+    "bundleId": "0c79ce86-1181-422d-ac6d-6f115fdb5a59",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "0c79ce86-1181-422d-ac6d-6f115fdb5a59",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780204481428
+      },
+      "currentSlot": 423308662,
+      "slotAge": 2666
+    },
+    "reasoning": "Submit now despite unavailable leader schedule.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and low congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Submit now despite unavailable leader schedule.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:14:49.624Z"
+  },
+  {
+    "id": "e70f77dd-2a04-4fce-8718-8db498958e0c",
+    "bundleId": "0c79ce86-1181-422d-ac6d-6f115fdb5a59",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "0c79ce86-1181-422d-ac6d-6f115fdb5a59",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:13:40+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000011375,
+          "landed_tips_75th_percentile": 0.0000040192500000000005,
+          "landed_tips_95th_percentile": 0.0010675095,
+          "landed_tips_99th_percentile": 0.00622500000000003,
+          "ema_landed_tips_50th_percentile": 0.0000025693837589011567
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000011375,
+        "minTip50th": 0.0000011375,
+        "maxTip50th": 0.0000011375,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 0,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780204490438
+      },
+      "currentSlot": 423308689
+    },
+    "reasoning": "5000 lamports is slightly above the 75th percentile, improving landing odds while remaining low cost.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend indicate no need for aggressive tipping."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "75th",
+        "reasoning": "5000 lamports is slightly above the 75th percentile, improving landing odds while remaining low cost.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:15:27.127Z"
+  },
+  {
+    "id": "376455b1-5e24-4d62-87ba-6349904080aa",
+    "bundleId": "68f61d8e-3b51-47f2-85de-115eba91ef1b",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "68f61d8e-3b51-47f2-85de-115eba91ef1b",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2652.66,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204542156
+      },
+      "currentSlot": 423308811,
+      "slotAge": 2418
+    },
+    "reasoning": "Congestion is low enough for immediate submission",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion support immediate submission"
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low enough for immediate submission",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:15:51.587Z"
+  },
+  {
+    "id": "0de69333-ac15-44a0-b8d1-5bc2764eab10",
+    "bundleId": "68f61d8e-3b51-47f2-85de-115eba91ef1b",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "68f61d8e-3b51-47f2-85de-115eba91ef1b",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:14:37+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001046,
+          "landed_tips_75th_percentile": 0.0000032910000000000003,
+          "landed_tips_95th_percentile": 0.0001,
+          "landed_tips_99th_percentile": 0.0005096802000000027,
+          "ema_landed_tips_50th_percentile": 0.0000015327575221372238
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001046,
+        "minTip50th": 0.000001046,
+        "maxTip50th": 0.000001046,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2652.66,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204552361
+      },
+      "currentSlot": 423308842
+    },
+    "reasoning": "50th percentile is low, so 5000 lamports provides a conservative buffer while remaining cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is low, so 5000 lamports provides a conservative buffer while remaining cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:16:05.845Z"
+  },
+  {
+    "id": "46cdf8c8-34eb-49c4-af5e-0bc1d31036e2",
+    "bundleId": "2b727b24-5158-451b-b456-d05f894e194b",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "2b727b24-5158-451b-b456-d05f894e194b",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2259.76,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204583514
+      },
+      "currentSlot": 423308882,
+      "slotAge": 2804
+    },
+    "reasoning": "Congestion is well below threshold; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and low congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is well below threshold; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:16:30.075Z"
+  },
+  {
+    "id": "3cb31544-5449-4b5a-b60d-3062ecd18cf8",
+    "bundleId": "2b727b24-5158-451b-b456-d05f894e194b",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "2b727b24-5158-451b-b456-d05f894e194b",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:15:07+00:00",
+          "landed_tips_25th_percentile": 0.0000010745,
+          "landed_tips_50th_percentile": 0.000002444,
+          "landed_tips_75th_percentile": 0.00001,
+          "landed_tips_95th_percentile": 0.00014003554999999948,
+          "landed_tips_99th_percentile": 0.005265779769999991,
+          "ema_landed_tips_50th_percentile": 0.0000020583283717786104
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000002444,
+        "minTip50th": 0.000002444,
+        "maxTip50th": 0.000002444,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2259.76,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204591166
+      },
+      "currentSlot": 423308939
+    },
+    "reasoning": "50th percentile is ~2444 lamports; 5000 lamports adds buffer while staying cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is ~2444 lamports; 5000 lamports adds buffer while staying cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:16:43.166Z"
+  },
+  {
+    "id": "f40d5e63-b636-4228-b5c8-cb01e1249ecd",
+    "bundleId": "8f4754f6-8fe1-4f09-af4e-50e19db4f3ff",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "8f4754f6-8fe1-4f09-af4e-50e19db4f3ff",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 100,
+        "isFavorable": true,
+        "reasons": [
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 1809.36,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 15,
+        "health": "healthy",
+        "lastUpdated": 1780204619364
+      },
+      "currentSlot": 423308976,
+      "slotAge": 2464
+    },
+    "reasoning": "Congestion is low; submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and low congestion."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:17:06.891Z"
+  },
+  {
+    "id": "6ca1e3fd-ab43-41c6-a945-8ff3b6707e64",
+    "bundleId": "8f4754f6-8fe1-4f09-af4e-50e19db4f3ff",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "8f4754f6-8fe1-4f09-af4e-50e19db4f3ff",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:15:38+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001095,
+          "landed_tips_75th_percentile": 0.000005,
+          "landed_tips_95th_percentile": 0.00032950049999999983,
+          "landed_tips_99th_percentile": 0.003909999999999997,
+          "ema_landed_tips_50th_percentile": 0.000002022375700736804
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001095,
+        "minTip50th": 0.000001095,
+        "maxTip50th": 0.000001095,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 0,
+        "level": "low",
+        "factors": []
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 1809.36,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 0,
+        "health": "healthy",
+        "lastUpdated": 1780204627563
+      },
+      "currentSlot": 423309034
+    },
+    "reasoning": "75th percentile provides strong landing odds while remaining inexpensive under low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend indicate no need for aggressive tipping."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "75th",
+        "reasoning": "75th percentile provides strong landing odds while remaining inexpensive under low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:17:21.548Z"
+  },
+  {
+    "id": "3433afd6-c6c3-421e-b838-d74ef5d1fe29",
+    "bundleId": "27b41716-4605-4e1e-a1ed-3d4daa347f2b",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "27b41716-4605-4e1e-a1ed-3d4daa347f2b",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2795.16,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204657283
+      },
+      "currentSlot": 423309071,
+      "slotAge": 2416
+    },
+    "reasoning": "Congestion is low, submit immediately.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low, submit immediately.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:17:43.653Z"
+  },
+  {
+    "id": "e1ef4086-19cc-42d9-bd2f-e0dadb652b79",
+    "bundleId": "27b41716-4605-4e1e-a1ed-3d4daa347f2b",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "27b41716-4605-4e1e-a1ed-3d4daa347f2b",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:16:39+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.0000010900000000000002,
+          "landed_tips_75th_percentile": 0.0000034200000000000003,
+          "landed_tips_95th_percentile": 0.0001,
+          "landed_tips_99th_percentile": 0.000393975999999996,
+          "ema_landed_tips_50th_percentile": 0.0000016722746383402478
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000010900000000000002,
+        "minTip50th": 0.0000010900000000000002,
+        "maxTip50th": 0.0000010900000000000002,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2795.16,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204664247
+      },
+      "currentSlot": 423309125
+    },
+    "reasoning": "A 5000 lamport tip is above the median and 75th percentile, improving landing odds while remaining cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with 50th percentile near 1090 lamports."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "A 5000 lamport tip is above the median and 75th percentile, improving landing odds while remaining cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:17:55.061Z"
+  },
+  {
+    "id": "c4d54581-1809-45a0-b627-0887768cfd39",
+    "bundleId": "78cdb089-5909-458b-8d3b-401ac3d1d30c",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "78cdb089-5909-458b-8d3b-401ac3d1d30c",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2566.44,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204689577
+      },
+      "currentSlot": 423309182,
+      "slotAge": 2570
+    },
+    "reasoning": "Congestion is well below threshold.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and low congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is well below threshold.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:18:21.586Z"
+  },
+  {
+    "id": "92a47794-1f48-4e30-8f5f-e3b4e9fbe476",
+    "bundleId": "78cdb089-5909-458b-8d3b-401ac3d1d30c",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "78cdb089-5909-458b-8d3b-401ac3d1d30c",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:17:08+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001075,
+          "landed_tips_75th_percentile": 0.0000014880000000000002,
+          "landed_tips_95th_percentile": 0.00014000000000000058,
+          "landed_tips_99th_percentile": 0.0008099999999999988,
+          "ema_landed_tips_50th_percentile": 0.0000019964761532477216
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001075,
+        "minTip50th": 0.000001075,
+        "maxTip50th": 0.000001075,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2566.44,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204702131
+      },
+      "currentSlot": 423309190
+    },
+    "reasoning": "50th percentile is low, so 5000 lamports provides strong landing odds while remaining cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "50th percentile is low, so 5000 lamports provides strong landing odds while remaining cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:18:32.053Z"
+  },
+  {
+    "id": "012c337e-7ade-4402-a0fd-28764cce851d",
+    "bundleId": "b15c8da6-79c3-4dfe-9648-8b35845f99ad",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "b15c8da6-79c3-4dfe-9648-8b35845f99ad",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2647.48,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204727995
+      },
+      "currentSlot": 423309248,
+      "slotAge": 2489
+    },
+    "reasoning": "Congestion is low; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable score support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:19:01.854Z"
+  },
+  {
+    "id": "6279c9a2-f2e9-44d0-8059-64cf7c56c789",
+    "bundleId": "b15c8da6-79c3-4dfe-9648-8b35845f99ad",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "b15c8da6-79c3-4dfe-9648-8b35845f99ad",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:17:39+00:00",
+          "landed_tips_25th_percentile": 0.00000112225,
+          "landed_tips_50th_percentile": 0.000005987,
+          "landed_tips_75th_percentile": 0.000032500000000000004,
+          "landed_tips_95th_percentile": 0.0005049999999999994,
+          "landed_tips_99th_percentile": 0.0009010000000000008,
+          "ema_landed_tips_50th_percentile": 0.000003524649233050556
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000005987,
+        "minTip50th": 0.000005987,
+        "maxTip50th": 0.000005987,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2647.48,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204743166
+      },
+      "currentSlot": 423309293
+    },
+    "reasoning": "Close to the 50th percentile while remaining cost-efficient under low congestion.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "Close to the 50th percentile while remaining cost-efficient under low congestion.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:19:15.714Z"
+  },
+  {
+    "id": "e1cec25d-2407-4a6d-a6bc-7f4f7d35d2d0",
+    "bundleId": "9b6363bf-2ca8-4f5e-a563-a5b98750b79b",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "9b6363bf-2ca8-4f5e-a563-a5b98750b79b",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2557.24,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204771576
+      },
+      "currentSlot": 423309383,
+      "slotAge": 2537
+    },
+    "reasoning": "Congestion is low; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable score support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:19:39.737Z"
+  },
+  {
+    "id": "a42f8b8c-7d25-4c9b-80c1-6f47b4192116",
+    "bundleId": "9b6363bf-2ca8-4f5e-a563-a5b98750b79b",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "9b6363bf-2ca8-4f5e-a563-a5b98750b79b",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:18:07+00:00",
+          "landed_tips_25th_percentile": 0.0000011055,
+          "landed_tips_50th_percentile": 0.000002803,
+          "landed_tips_75th_percentile": 0.00000571675,
+          "landed_tips_95th_percentile": 0.0001,
+          "landed_tips_99th_percentile": 0.00010532557,
+          "ema_landed_tips_50th_percentile": 0.00000290788307631323
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000002803,
+        "minTip50th": 0.000002803,
+        "maxTip50th": 0.000002803,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2557.24,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204780296
+      },
+      "currentSlot": 423309385
+    },
+    "reasoning": "Median tip is ~2803 lamports; 5000 adds a modest buffer while staying cost-efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "50th",
+        "reasoning": "Median tip is ~2803 lamports; 5000 adds a modest buffer while staying cost-efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:20:18.810Z"
+  },
+  {
+    "id": "5d4f79d9-3443-4eb0-a70e-8bbb96a784b4",
+    "bundleId": "7aa885c3-ac2f-4f40-8a7d-0179098fabc9",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "7aa885c3-ac2f-4f40-8a7d-0179098fabc9",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 3183.56,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204836073
+      },
+      "currentSlot": 423309552,
+      "slotAge": 2259
+    },
+    "reasoning": "Congestion is low enough to submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion support immediate submission."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low enough to submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:20:42.422Z"
+  },
+  {
+    "id": "354bcc67-381f-4fdc-806d-5f8e7798d9a3",
+    "bundleId": "7aa885c3-ac2f-4f40-8a7d-0179098fabc9",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "7aa885c3-ac2f-4f40-8a7d-0179098fabc9",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:19:39+00:00",
+          "landed_tips_25th_percentile": 0.0000010000000000000002,
+          "landed_tips_50th_percentile": 0.000001103,
+          "landed_tips_75th_percentile": 0.0000022095,
+          "landed_tips_95th_percentile": 0.0001,
+          "landed_tips_99th_percentile": 0.0005686991299999978,
+          "ema_landed_tips_50th_percentile": 0.0000013218012781948823
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.000001103,
+        "minTip50th": 0.000001103,
+        "maxTip50th": 0.000001103,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 3183.56,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204843057
+      },
+      "currentSlot": 423309577
+    },
+    "reasoning": "Low congestion allows a small tip; 5000 lamports is above 75th percentile for stronger landing while remaining cost efficient.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip trend with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "75th",
+        "reasoning": "Low congestion allows a small tip; 5000 lamports is above 75th percentile for stronger landing while remaining cost efficient.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:20:56.970Z"
+  },
+  {
+    "id": "db24569c-c61c-41d7-96fd-8e5c7ab5e1c0",
+    "bundleId": "0033f0f9-0e71-41a4-92d3-9c64b1062343",
+    "decisionType": "SUBMISSION_TIMING",
+    "input": {
+      "bundleId": "0033f0f9-0e71-41a4-92d3-9c64b1062343",
+      "leaderWindow": {
+        "isGoodWindow": false,
+        "slotsUntilNextLeader": 999,
+        "upcomingLeaders": [],
+        "recommendation": "No upcoming leaders found, wait for schedule update"
+      },
+      "conditions": {
+        "score": 85,
+        "isFavorable": true,
+        "reasons": [
+          "Medium network congestion",
+          "Conditions are favorable for submission"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2568.82,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 25,
+        "health": "healthy",
+        "lastUpdated": 1780204871871
+      },
+      "currentSlot": 423309614,
+      "slotAge": 2596
+    },
+    "reasoning": "Congestion is low; submit now.",
+    "decision": {
+      "timingAnalysis": {
+        "currentConditions": "favorable",
+        "leaderWindowStatus": "immediate",
+        "reasoning": "Healthy network and favorable congestion."
+      },
+      "submissionDecision": {
+        "submitNow": true,
+        "waitSlots": 0,
+        "reasoning": "Congestion is low; submit now.",
+        "confidenceScore": 85
+      },
+      "riskFactors": []
+    },
+    "timestamp": "2026-05-31T05:21:20.290Z"
+  },
+  {
+    "id": "f350cdf0-6370-4811-b970-8a796dc80765",
+    "bundleId": "0033f0f9-0e71-41a4-92d3-9c64b1062343",
+    "decisionType": "TIP_INTELLIGENCE",
+    "input": {
+      "bundleId": "0033f0f9-0e71-41a4-92d3-9c64b1062343",
+      "tipHistory": [
+        {
+          "time": "2026-05-31T05:20:09+00:00",
+          "landed_tips_25th_percentile": 0.000001146,
+          "landed_tips_50th_percentile": 0.0000022870000000000003,
+          "landed_tips_75th_percentile": 0.000004385,
+          "landed_tips_95th_percentile": 0.000034502499999999983,
+          "landed_tips_99th_percentile": 0.0003327000000000046,
+          "ema_landed_tips_50th_percentile": 0.0000022220552906140698
+        }
+      ],
+      "trend": {
+        "direction": "stable",
+        "changePercent": 0,
+        "avgTip50th": 0.0000022870000000000003,
+        "minTip50th": 0.0000022870000000000003,
+        "maxTip50th": 0.0000022870000000000003,
+        "recommendation": "Insufficient data, use default tip"
+      },
+      "congestion": {
+        "score": 10,
+        "level": "low",
+        "factors": [
+          "Moderate confirmation times"
+        ]
+      },
+      "networkMetrics": {
+        "avgConfirmationMs": 2568.82,
+        "avgSlotTimeMs": 400,
+        "congestionScore": 10,
+        "health": "healthy",
+        "lastUpdated": 1780204881020
+      },
+      "currentSlot": 423309675
+    },
+    "reasoning": "Slightly above the 75th percentile to improve landing probability while keeping cost low.",
+    "decision": {
+      "tipAnalysis": {
+        "networkCondition": "healthy",
+        "trendDirection": "stable",
+        "reasoning": "Low congestion and stable tip market with healthy network metrics."
+      },
+      "tipDecision": {
+        "recommendedTipLamports": 5000,
+        "percentileUsed": "75th",
+        "reasoning": "Slightly above the 75th percentile to improve landing probability while keeping cost low.",
+        "confidenceScore": 85
+      },
+      "riskAssessment": {
+        "landingProbability": 90,
+        "costEfficiency": "high"
+      }
+    },
+    "timestamp": "2026-05-31T05:21:31.536Z"
   }
 ]

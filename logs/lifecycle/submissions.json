@@ -378,5 +378,879 @@
     "failureReason": null,
     "createdAt": "2026-05-30T15:09:28.944Z",
     "loggedAt": "2026-05-30T15:09:48.216Z"
+  },
+  {
+    "id": "0b6c8fbf-f339-45d1-a551-bebeb00469a8",
+    "bundleId": "89fb9749-f198-4be7-9da9-e45617042fc4",
+    "signature": "632d0c19ac75e55fa1f40353530d7d38f287dbd62cabfcab8068b7855cd696ff",
+    "tipLamports": 1200,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304291,
+        "timestamp": 1780202745188
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304296,
+        "timestamp": 1780202748834
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304296,
+        "timestamp": 1780202748835
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304270,
+        "timestamp": 1780202748836
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.65s",
+      "processedToConfirmed": "1ms",
+      "confirmedToFinalized": "1ms",
+      "total": "3.65s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:45:19.375Z",
+    "loggedAt": "2026-05-31T04:45:48.840Z"
+  },
+  {
+    "id": "ca2417d7-83d3-4bd4-80d6-8632a9a3c431",
+    "bundleId": "b62c88a2-b0ac-442d-9157-cdae2815a479",
+    "signature": "ddb2a374f22359c13495c9e4eff34b6061c8dda1615730a0527550e0d9c2070d",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304368,
+        "timestamp": 1780202775558
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304374,
+        "timestamp": 1780202779940
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304374,
+        "timestamp": 1780202780040
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304348,
+        "timestamp": 1780202780040
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.38s",
+      "processedToConfirmed": "100ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.48s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:45:51.846Z",
+    "loggedAt": "2026-05-31T04:46:20.042Z"
+  },
+  {
+    "id": "fa066227-190a-4d69-8461-773fb5f266f8",
+    "bundleId": "c43ae2af-80ae-4017-9dd4-d80dc19c1e44",
+    "signature": "ec5087a742457c1e09ae56cee8d440958ff7d4250e33e0b433de252014a6116a",
+    "tipLamports": 2000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304400,
+        "timestamp": 1780202800606
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304436,
+        "timestamp": 1780202804822
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304436,
+        "timestamp": 1780202804895
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304411,
+        "timestamp": 1780202804895
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.22s",
+      "processedToConfirmed": "73ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.29s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:46:23.048Z",
+    "loggedAt": "2026-05-31T04:46:44.915Z"
+  },
+  {
+    "id": "96cc7d9c-b4b6-4d1f-be19-1f996511ba6a",
+    "bundleId": "1c5e877e-b59a-4e7b-8a20-7db3fd798049",
+    "signature": "e9b15707de0de4e8df3ee19a6d29c9d8b7d17f0ff2f8d63e2cceb75919b5a477",
+    "tipLamports": 1428,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304520,
+        "timestamp": 1780202835787
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304525,
+        "timestamp": 1780202839708
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304525,
+        "timestamp": 1780202839754
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304500,
+        "timestamp": 1780202839754
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.92s",
+      "processedToConfirmed": "46ms",
+      "confirmedToFinalized": "N/A",
+      "total": "3.97s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:46:47.921Z",
+    "loggedAt": "2026-05-31T04:47:19.757Z"
+  },
+  {
+    "id": "608ebc5f-d338-46d3-ae3c-4ee92ced0850",
+    "bundleId": "8f02fa1a-8366-4eb5-9206-b05cbb1f4217",
+    "signature": "a0dea0ed12ff257fefcd494ceff230c94229281e0078c3a536c0c54a20cca0fd",
+    "tipLamports": 2000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304600,
+        "timestamp": 1780202866925
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304605,
+        "timestamp": 1780202871059
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304605,
+        "timestamp": 1780202871190
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304610,
+        "timestamp": 1780202871190
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.13s",
+      "processedToConfirmed": "131ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.26s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:47:22.762Z",
+    "loggedAt": "2026-05-31T04:47:51.195Z"
+  },
+  {
+    "id": "86b322bd-6f6e-4a69-9fb4-aa115d19abbf",
+    "bundleId": "ab92df1b-f81c-4085-bc52-71c9efcf5a04",
+    "signature": "31a3f9c88bfc4928d9ec26d6d1f66f397ea3f49dde30ac74cb66d9cf8bb82c9f",
+    "tipLamports": 1000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304674,
+        "timestamp": 1780202896937
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304680,
+        "timestamp": 1780202901277
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304680,
+        "timestamp": 1780202901350
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304685,
+        "timestamp": 1780202901350
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.34s",
+      "processedToConfirmed": "73ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.41s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:47:54.200Z",
+    "loggedAt": "2026-05-31T04:48:21.371Z"
+  },
+  {
+    "id": "a31efecb-9030-496d-88db-36299167041c",
+    "bundleId": "69eff6c0-7723-4ffa-be40-9c380ab41ddd",
+    "signature": "05886784946e318f524012daa25bd678a0e5c0a6194f5d019b6d572fe805362e",
+    "tipLamports": 1456,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304751,
+        "timestamp": 1780202928008
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304756,
+        "timestamp": 1780202931968
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304756,
+        "timestamp": 1780202932059
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304761,
+        "timestamp": 1780202932059
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.96s",
+      "processedToConfirmed": "91ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.05s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:48:24.377Z",
+    "loggedAt": "2026-05-31T04:48:52.061Z"
+  },
+  {
+    "id": "b07b0704-3041-43e0-ab40-0cd5038782aa",
+    "bundleId": "70ef1280-0c94-45ac-a13c-c2bdae23c88d",
+    "signature": "66024f903f1a3dc213abe6831fc7b6f8b6966130396fc95d73704b9855fa9d04",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304803,
+        "timestamp": 1780202961014
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304838,
+        "timestamp": 1780202964997
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304838,
+        "timestamp": 1780202965013
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304812,
+        "timestamp": 1780202965013
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.98s",
+      "processedToConfirmed": "16ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.00s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:48:55.065Z",
+    "loggedAt": "2026-05-31T04:49:25.016Z"
+  },
+  {
+    "id": "545b08eb-eb5e-4969-a40b-dcc158349e2d",
+    "bundleId": "96a878f6-2de3-4673-a6dc-89a6ed59c69e",
+    "signature": "ba57684da6a87a5e4875f63da8518c178ce1a30d84673f21ee06400aff7edbd7",
+    "tipLamports": 2000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304897,
+        "timestamp": 1780202986070
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304903,
+        "timestamp": 1780202990454
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304903,
+        "timestamp": 1780202990627
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304876,
+        "timestamp": 1780202990627
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.38s",
+      "processedToConfirmed": "173ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.56s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:49:28.020Z",
+    "loggedAt": "2026-05-31T04:49:50.629Z"
+  },
+  {
+    "id": "ad7e61be-48b9-42f1-bcdf-c7c8d6fb43f3",
+    "bundleId": "34ec0e8b-9436-43c9-ad5b-591f8d057e5a",
+    "signature": "0c715e72149249f35594f67c91aba33b01ea98212f49485a9587e70e8f3b05e2",
+    "tipLamports": 2000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423304963,
+        "timestamp": 1780203013623
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423304969,
+        "timestamp": 1780203017622
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423304969,
+        "timestamp": 1780203017867
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423304974,
+        "timestamp": 1780203017867
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.00s",
+      "processedToConfirmed": "245ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.24s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T04:49:53.634Z",
+    "loggedAt": "2026-05-31T04:50:17.869Z"
+  },
+  {
+    "id": "ccdc4965-c6e8-4480-ad66-14b7ea93ebc3",
+    "bundleId": "7f81a9b8-e506-4bda-8c71-3940909f0bd1",
+    "signature": "32b4d77990bc6a1153d0b0ca09d0c93ec2894b89c7b76d617a5d8a7843a12c5b",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423307092,
+        "timestamp": 1780203859319
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423307090,
+        "timestamp": 1780203870544
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423307090,
+        "timestamp": 1780203870545
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423307090,
+        "timestamp": 1780203870545
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "11.22s",
+      "processedToConfirmed": "1ms",
+      "confirmedToFinalized": "N/A",
+      "total": "11.23s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:03:44.211Z",
+    "loggedAt": "2026-05-31T05:04:30.569Z"
+  },
+  {
+    "id": "95f6c5ed-4d16-4d03-8042-953cbd48e496",
+    "bundleId": "6e792d48-4b08-469b-a8b8-37ddd0d3a0b4",
+    "signature": "83dbfc83ea1afee43ac6829700bc2381ca59a5c17950b9d411608cdcb137b779",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423307922,
+        "timestamp": 1780204187256
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423307943,
+        "timestamp": 1780204195543
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423307943,
+        "timestamp": 1780204195543
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423307943,
+        "timestamp": 1780204195543
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "8.29s",
+      "processedToConfirmed": "N/A",
+      "confirmedToFinalized": "N/A",
+      "total": "8.29s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:09:00.776Z",
+    "loggedAt": "2026-05-31T05:09:55.557Z"
+  },
+  {
+    "id": "008cfa99-ddc0-42df-8fc0-76b4b2195dfd",
+    "bundleId": "895f1f9a-8a6f-4319-831b-d815d5f3b909",
+    "signature": "40b06e35e584ab6ffce6d63a0c1527a8945a56bbf120742d19632134a7cc7a41",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423308033,
+        "timestamp": 1780204230593
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423308057,
+        "timestamp": 1780204239652
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423308057,
+        "timestamp": 1780204239652
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423308057,
+        "timestamp": 1780204239652
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "9.06s",
+      "processedToConfirmed": "N/A",
+      "confirmedToFinalized": "N/A",
+      "total": "9.06s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:09:58.563Z",
+    "loggedAt": "2026-05-31T05:10:39.654Z"
+  },
+  {
+    "id": "1e733679-9694-440a-8a14-3b5bb28d3516",
+    "bundleId": "0c79ce86-1181-422d-ac6d-6f115fdb5a59",
+    "signature": "c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423308785,
+        "timestamp": 1780204529252
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423308790,
+        "timestamp": 1780204532878
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423308790,
+        "timestamp": 1780204532879
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423308764,
+        "timestamp": 1780204532880
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.63s",
+      "processedToConfirmed": "1ms",
+      "confirmedToFinalized": "1ms",
+      "total": "3.63s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:14:33.622Z",
+    "loggedAt": "2026-05-31T05:15:32.903Z"
+  },
+  {
+    "id": "f474dad6-799c-45ee-abf5-24e0c7247b58",
+    "bundleId": "68f61d8e-3b51-47f2-85de-115eba91ef1b",
+    "signature": "de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423308878,
+        "timestamp": 1780204566777
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423308883,
+        "timestamp": 1780204570796
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423308883,
+        "timestamp": 1780204570808
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423308857,
+        "timestamp": 1780204570808
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.02s",
+      "processedToConfirmed": "12ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.03s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:15:35.930Z",
+    "loggedAt": "2026-05-31T05:16:10.810Z"
+  },
+  {
+    "id": "dc9cbc3f-7140-4b11-b597-59ae229f7740",
+    "bundleId": "2b727b24-5158-451b-b456-d05f894e194b",
+    "signature": "4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423308973,
+        "timestamp": 1780204603973
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423308979,
+        "timestamp": 1780204607566
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423308979,
+        "timestamp": 1780204608184
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423308951,
+        "timestamp": 1780204608184
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "3.59s",
+      "processedToConfirmed": "618ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.21s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:16:13.817Z",
+    "loggedAt": "2026-05-31T05:16:48.188Z"
+  },
+  {
+    "id": "147f393d-b18a-4b33-ad47-3d6ca95faebc",
+    "bundleId": "8f4754f6-8fe1-4f09-af4e-50e19db4f3ff",
+    "signature": "eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309071,
+        "timestamp": 1780204642379
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309078,
+        "timestamp": 1780204646965
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309078,
+        "timestamp": 1780204647115
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309082,
+        "timestamp": 1780204647116
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.59s",
+      "processedToConfirmed": "150ms",
+      "confirmedToFinalized": "1ms",
+      "total": "4.74s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:16:51.192Z",
+    "loggedAt": "2026-05-31T05:17:27.118Z"
+  },
+  {
+    "id": "1f5b2d35-85f4-43ae-a189-d99f30239ebf",
+    "bundleId": "27b41716-4605-4e1e-a1ed-3d4daa347f2b",
+    "signature": "c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309123,
+        "timestamp": 1780204675863
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309160,
+        "timestamp": 1780204680281
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309160,
+        "timestamp": 1780204680513
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309165,
+        "timestamp": 1780204680513
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.42s",
+      "processedToConfirmed": "232ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.65s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:17:30.124Z",
+    "loggedAt": "2026-05-31T05:18:00.516Z"
+  },
+  {
+    "id": "c979caa3-f08b-473e-8e0e-f8c79204bfda",
+    "bundleId": "78cdb089-5909-458b-8d3b-401ac3d1d30c",
+    "signature": "7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309247,
+        "timestamp": 1780204712847
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309252,
+        "timestamp": 1780204716914
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309252,
+        "timestamp": 1780204717025
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309257,
+        "timestamp": 1780204717025
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.07s",
+      "processedToConfirmed": "111ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.18s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:18:03.521Z",
+    "loggedAt": "2026-05-31T05:18:37.027Z"
+  },
+  {
+    "id": "ca299d37-a207-4284-a7e9-27bca2945f85",
+    "bundleId": "b15c8da6-79c3-4dfe-9648-8b35845f99ad",
+    "signature": "776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309355,
+        "timestamp": 1780204756630
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309361,
+        "timestamp": 1780204760706
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309361,
+        "timestamp": 1780204760927
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309366,
+        "timestamp": 1780204760927
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.08s",
+      "processedToConfirmed": "221ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.30s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:18:40.033Z",
+    "loggedAt": "2026-05-31T05:19:20.929Z"
+  },
+  {
+    "id": "8abf613d-02bc-4af7-ba70-e8fda758ff3f",
+    "bundleId": "9b6363bf-2ca8-4f5e-a563-a5b98750b79b",
+    "signature": "ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309515,
+        "timestamp": 1780204819536
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309522,
+        "timestamp": 1780204824119
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309522,
+        "timestamp": 1780204824161
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309527,
+        "timestamp": 1780204824162
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.58s",
+      "processedToConfirmed": "42ms",
+      "confirmedToFinalized": "1ms",
+      "total": "4.63s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:19:23.935Z",
+    "loggedAt": "2026-05-31T05:20:24.182Z"
+  },
+  {
+    "id": "b3a3945c-3b61-4474-ba54-e89cd5bae222",
+    "bundleId": "7aa885c3-ac2f-4f40-8a7d-0179098fabc9",
+    "signature": "484f3568edc57fd370aafa830d1b5f5deb10ed91823c576899f000a71f75a597",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309616,
+        "timestamp": 1780204857817
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309622,
+        "timestamp": 1780204861905
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309622,
+        "timestamp": 1780204862007
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309627,
+        "timestamp": 1780204862008
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.09s",
+      "processedToConfirmed": "102ms",
+      "confirmedToFinalized": "1ms",
+      "total": "4.19s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:20:27.188Z",
+    "loggedAt": "2026-05-31T05:21:02.010Z"
+  },
+  {
+    "id": "3cfe316b-45da-4fb5-8d51-440cc0fe6d05",
+    "bundleId": "0033f0f9-0e71-41a4-92d3-9c64b1062343",
+    "signature": "92895328f231f068ea54593e6d37da4577a697f2b70596c94f7c84f8a5fec9d5",
+    "tipLamports": 5000,
+    "currentStage": "finalized",
+    "stages": {
+      "submitted": {
+        "stage": "submitted",
+        "slot": 423309673,
+        "timestamp": 1780204892562
+      },
+      "processed": {
+        "stage": "processed",
+        "slot": 423309709,
+        "timestamp": 1780204896875
+      },
+      "confirmed": {
+        "stage": "confirmed",
+        "slot": 423309709,
+        "timestamp": 1780204896876
+      },
+      "finalized": {
+        "stage": "finalized",
+        "slot": 423309714,
+        "timestamp": 1780204896876
+      }
+    },
+    "latency": {
+      "submittedToProcessed": "4.31s",
+      "processedToConfirmed": "1ms",
+      "confirmedToFinalized": "N/A",
+      "total": "4.31s"
+    },
+    "failureReason": null,
+    "createdAt": "2026-05-31T05:21:05.014Z",
+    "loggedAt": "2026-05-31T05:21:36.881Z"
   }
 ]
