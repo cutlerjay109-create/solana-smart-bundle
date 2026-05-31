@@ -1,0 +1,1143 @@
+> solana-smart-bundle@1.0.0 dev                                 > ts-node src/index.ts                                          
+◇ injected env (17) from .env // tip: ⌘ override existing { override: true }                                                    ◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-31T05:14:28.888Z [info]: Initializing Solana Smart Bundle system...
+2026-05-31T05:14:29.104Z [info]: Wallet: 2wPKpGU9RoLH8D2YiEXXKL7HwwzJou9g71gMxXsUEJq4
+2026-05-31T05:14:29.916Z [info]: Balance: 5 SOL
+2026-05-31T05:14:30.135Z [info]: Fetching initial blockhash...  2026-05-31T05:14:30.534Z [info]: Blockhash: BgfNv4hBV56yr3TJze7khY3sB2oJoYLb4oPYsmJbNBbk                                        2026-05-31T05:14:30.536Z [info]: Starting slot watcher...
+Starting slot watcher via gRPC stream...                        2026-05-31T05:14:33.605Z [info]: Current slot: 423308649
+2026-05-31T05:14:33.608Z [info]: Blockhash refresher started    2026-05-31T05:14:33.609Z [info]: System initialized successfully
+2026-05-31T05:14:33.611Z [info]: Starting bounty demo run...
+2026-05-31T05:14:33.612Z [info]: Target: 10 bundle submissions with 2 failure cases
+2026-05-31T05:14:33.616Z [info]: === PHASE 1: Normal Submissions (8 bundles) ===
+2026-05-31T05:14:33.617Z [info]: Submitting bundle 1/8...
+2026-05-31T05:14:33.622Z [info]: Starting bundle submission 0c79ce86-1181-422d-ac6d-6f115fdb5a59                                2026-05-31T05:14:33.622Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 0c79ce86-1181-422d-ac6d-6f115fdb5a59...
+AI Reasoning logged for bundle 0c79ce86-1181-422d-ac6d-6f115fdb5a59
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Submit now despite unavailable leader schedule.
+2026-05-31T05:14:49.648Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 0c79ce86-1181-422d-ac6d-6f115fdb5a59...
+AI Reasoning logged for bundle 0c79ce86-1181-422d-ac6d-6f115fdb5a59
+AI Tip Decision: 5000 lamports
+AI Reasoning: 5000 lamports is slightly above the 75th percentile, improving landing odds while remaining low cost.
+2026-05-31T05:15:27.131Z [info]: AI recommended tip: 5000 lamports
+Fetched real tip accounts: [
+  'BkMx5bRzQeP6tUZgzEs3xeDWJfQiLYvNDqSgmGZKYJDq',
+  '84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg',
+  'F7ThiQUBYiEcyaxpmMuUeACdoiSLKg4SZZ8JSfpFNwAf',
+  'G2d63CEgKBdgtpYT2BuheYQ9HFuFCenuHLNyKVpqAuSD',
+  'AzfhMPcx3qjbvCK3UUy868qmc5L451W341cpFqdL3EBe',
+  '4uRnem4BfVpZBv7kShVxUYtcipscgZMSHi3B9CSL6gAA',
+  'CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC',
+  '7aewvu8fMf1DK4fKoMXKfs3h3wpAQ7r7D8T1C71LmMF'
+]
+Using tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+2026-05-31T05:15:29.253Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43","id":"8d56a2a6-0e3f-4e7e-8f65-aacc30c9c55e"}
+2026-05-31T05:15:29.587Z [info]: Bundle submitted successfully: c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43
+2026-05-31T05:15:29.588Z [info]: Confirming via gRPC stream...
+Confirming bundle c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43 via stream...
+Stream subscription active for bundle 0c79ce86-1181-422d-ac6d-6f115fdb5a59
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Stream received transaction at slot 423308790
+Bundle confirmed via stream at slot 423308790
+2026-05-31T05:15:32.880Z [info]: Bundle finalized: c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43
+2026-05-31T05:15:32.904Z [info]: Bundle 1 complete: c42b285eca4cef543fe2899fe863b7d57a239c52978c8ec274ee8c6eee691a43
+2026-05-31T05:15:35.906Z [info]: Submitting bundle 2/8...
+2026-05-31T05:15:35.929Z [info]: Starting bundle submission 68f61d8e-3b51-47f2-85de-115eba91ef1b
+2026-05-31T05:15:35.930Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 68f61d8e-3b51-47f2-85de-115eba91ef1b...
+AI Reasoning logged for bundle 68f61d8e-3b51-47f2-85de-115eba91ef1b
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low enough for immediate submission
+2026-05-31T05:15:51.590Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 68f61d8e-3b51-47f2-85de-115eba91ef1b...
+AI Reasoning logged for bundle 68f61d8e-3b51-47f2-85de-115eba91ef1b
+AI Tip Decision: 5000 lamports
+AI Reasoning: 50th percentile is low, so 5000 lamports provides a conservative buffer while remaining cost efficient.
+2026-05-31T05:16:05.848Z [info]: AI recommended tip: 5000 lamports
+Using tip account: G2d63CEgKBdgtpYT2BuheYQ9HFuFCenuHLNyKVpqAuSD
+2026-05-31T05:16:06.778Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: G2d63CEgKBdgtpYT2BuheYQ9HFuFCenuHLNyKVpqAuSD
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16","id":"b55a94fb-b275-47d6-b823-e87ca0cb5a07"}
+2026-05-31T05:16:07.718Z [info]: Bundle submitted successfully: de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16
+2026-05-31T05:16:07.719Z [info]: Confirming via gRPC stream...
+Confirming bundle de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16 via stream...
+Stream subscription active for bundle 68f61d8e-3b51-47f2-85de-115eba91ef1b
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Stream received transaction at slot 423308883
+Bundle confirmed via stream at slot 423308883
+2026-05-31T05:16:10.808Z [info]: Bundle finalized: de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16
+2026-05-31T05:16:10.811Z [info]: Bundle 2 complete: de5455dbaa32f094380b0702a942b8b56d40f72316801c4007385f908d0f6d16
+2026-05-31T05:16:13.813Z [info]: Submitting bundle 3/8...
+2026-05-31T05:16:13.816Z [info]: Starting bundle submission 2b727b24-5158-451b-b456-d05f894e194b
+2026-05-31T05:16:13.817Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 2b727b24-5158-451b-b456-d05f894e194b...
+AI Reasoning logged for bundle 2b727b24-5158-451b-b456-d05f894e194b
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is well below threshold; submit now.
+2026-05-31T05:16:30.081Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 2b727b24-5158-451b-b456-d05f894e194b...
+AI Reasoning logged for bundle 2b727b24-5158-451b-b456-d05f894e194b
+AI Tip Decision: 5000 lamports
+AI Reasoning: 50th percentile is ~2444 lamports; 5000 lamports adds buffer while staying cost efficient.
+2026-05-31T05:16:43.170Z [info]: AI recommended tip: 5000 lamports
+Using tip account: BkMx5bRzQeP6tUZgzEs3xeDWJfQiLYvNDqSgmGZKYJDq
+2026-05-31T05:16:43.973Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: BkMx5bRzQeP6tUZgzEs3xeDWJfQiLYvNDqSgmGZKYJDq
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e","id":"c5f7890a-ee4c-4c34-8db3-431a5d5ed49a"}
+2026-05-31T05:16:45.106Z [info]: Bundle submitted successfully: 4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e
+2026-05-31T05:16:45.107Z [info]: Confirming via gRPC stream...
+Confirming bundle 4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e via stream...
+Stream subscription active for bundle 2b727b24-5158-451b-b456-d05f894e194b
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Stream received transaction at slot 423308979
+Bundle confirmed via stream at slot 423308979
+2026-05-31T05:16:48.184Z [info]: Bundle finalized: 4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e
+2026-05-31T05:16:48.188Z [info]: Bundle 3 complete: 4af1fe98a71cd0f2a1d29058bea729365f996700341e4ad34a47e7005a1f155e
+2026-05-31T05:16:51.189Z [info]: Submitting bundle 4/8...
+2026-05-31T05:16:51.192Z [info]: Starting bundle submission 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff
+2026-05-31T05:16:51.192Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff...
+AI Reasoning logged for bundle 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low; submit immediately.
+2026-05-31T05:17:06.896Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff...
+AI Reasoning logged for bundle 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff
+AI Tip Decision: 5000 lamports
+AI Reasoning: 75th percentile provides strong landing odds while remaining inexpensive under low congestion.
+2026-05-31T05:17:21.552Z [info]: AI recommended tip: 5000 lamports
+Using tip account: 4uRnem4BfVpZBv7kShVxUYtcipscgZMSHi3B9CSL6gAA
+2026-05-31T05:17:22.379Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: 4uRnem4BfVpZBv7kShVxUYtcipscgZMSHi3B9CSL6gAA
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5","id":"b6ee250f-a9f1-4e82-9b7a-a770b75b61ce"}
+2026-05-31T05:17:23.458Z [info]: Bundle submitted successfully: eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5
+2026-05-31T05:17:23.459Z [info]: Confirming via gRPC stream...
+Confirming bundle eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5 via stream...
+Stream subscription active for bundle 8f4754f6-8fe1-4f09-af4e-50e19db4f3ff
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Stream received transaction at slot 423309078
+Bundle confirmed via stream at slot 423309078
+2026-05-31T05:17:27.116Z [info]: Bundle finalized: eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5
+2026-05-31T05:17:27.119Z [info]: Bundle 4 complete: eb02077a35386a4515334a82520590633d20ac47485959cef68ee30aace895b5
+2026-05-31T05:17:30.120Z [info]: Submitting bundle 5/8...
+2026-05-31T05:17:30.123Z [info]: Starting bundle submission 27b41716-4605-4e1e-a1ed-3d4daa347f2b
+2026-05-31T05:17:30.124Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 27b41716-4605-4e1e-a1ed-3d4daa347f2b...
+AI Reasoning logged for bundle 27b41716-4605-4e1e-a1ed-3d4daa347f2b
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low, submit immediately.
+2026-05-31T05:17:43.657Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 27b41716-4605-4e1e-a1ed-3d4daa347f2b...
+AI Reasoning logged for bundle 27b41716-4605-4e1e-a1ed-3d4daa347f2b
+AI Tip Decision: 5000 lamports
+AI Reasoning: A 5000 lamport tip is above the median and 75th percentile, improving landing odds while remaining cost efficient.
+2026-05-31T05:17:55.066Z [info]: AI recommended tip: 5000 lamports
+Using tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+2026-05-31T05:17:55.863Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698","id":"de46f381-5d91-4e7a-9897-84f560aeda8a"}
+2026-05-31T05:17:56.973Z [info]: Bundle submitted successfully: c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698
+2026-05-31T05:17:56.974Z [info]: Confirming via gRPC stream...
+Confirming bundle c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698 via stream...
+Stream subscription active for bundle 27b41716-4605-4e1e-a1ed-3d4daa347f2b
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Stream received transaction at slot 423309160
+Bundle confirmed via stream at slot 423309160
+2026-05-31T05:18:00.514Z [info]: Bundle finalized: c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698
+2026-05-31T05:18:00.517Z [info]: Bundle 5 complete: c7b8efb1c6bbcd3efd9120374ffcb6df146c4651ae0508b9afbf3bc6bea80698
+2026-05-31T05:18:03.518Z [info]: Submitting bundle 6/8...
+2026-05-31T05:18:03.521Z [info]: Starting bundle submission 78cdb089-5909-458b-8d3b-401ac3d1d30c
+2026-05-31T05:18:03.522Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 78cdb089-5909-458b-8d3b-401ac3d1d30c...
+AI Reasoning logged for bundle 78cdb089-5909-458b-8d3b-401ac3d1d30c
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is well below threshold.
+2026-05-31T05:18:21.590Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 78cdb089-5909-458b-8d3b-401ac3d1d30c...
+AI Reasoning logged for bundle 78cdb089-5909-458b-8d3b-401ac3d1d30c
+AI Tip Decision: 5000 lamports
+AI Reasoning: 50th percentile is low, so 5000 lamports provides strong landing odds while remaining cost efficient.
+2026-05-31T05:18:32.057Z [info]: AI recommended tip: 5000 lamports
+Using tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+2026-05-31T05:18:32.847Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2","id":"e244bb89-8cb0-4541-8ce3-bfdd09ec6f62"}
+2026-05-31T05:18:33.710Z [info]: Bundle submitted successfully: 7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2
+2026-05-31T05:18:33.710Z [info]: Confirming via gRPC stream...
+Confirming bundle 7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2 via stream...
+Stream subscription active for bundle 78cdb089-5909-458b-8d3b-401ac3d1d30c
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Stream received transaction at slot 423309252
+Bundle confirmed via stream at slot 423309252
+2026-05-31T05:18:37.025Z [info]: Bundle finalized: 7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2
+2026-05-31T05:18:37.028Z [info]: Bundle 6 complete: 7381eb7c95db863f97a6c79c94b2ea9d776c4250609a35760ef47f37190b2ba2
+2026-05-31T05:18:40.029Z [info]: Submitting bundle 7/8...
+2026-05-31T05:18:40.032Z [info]: Starting bundle submission b15c8da6-79c3-4dfe-9648-8b35845f99ad
+2026-05-31T05:18:40.033Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle b15c8da6-79c3-4dfe-9648-8b35845f99ad...
+AI Reasoning logged for bundle b15c8da6-79c3-4dfe-9648-8b35845f99ad
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low; submit now.
+2026-05-31T05:19:01.858Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle b15c8da6-79c3-4dfe-9648-8b35845f99ad...
+AI Reasoning logged for bundle b15c8da6-79c3-4dfe-9648-8b35845f99ad
+AI Tip Decision: 5000 lamports
+AI Reasoning: Close to the 50th percentile while remaining cost-efficient under low congestion.
+2026-05-31T05:19:15.718Z [info]: AI recommended tip: 5000 lamports
+Using tip account: AzfhMPcx3qjbvCK3UUy868qmc5L451W341cpFqdL3EBe
+2026-05-31T05:19:16.630Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: AzfhMPcx3qjbvCK3UUy868qmc5L451W341cpFqdL3EBe
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714","id":"60e016c4-f864-4fcf-aa19-f8961c27fd01"}
+2026-05-31T05:19:17.751Z [info]: Bundle submitted successfully: 776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714
+2026-05-31T05:19:17.752Z [info]: Confirming via gRPC stream...
+Confirming bundle 776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714 via stream...
+Stream subscription active for bundle b15c8da6-79c3-4dfe-9648-8b35845f99ad
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Stream received transaction at slot 423309361
+Bundle confirmed via stream at slot 423309361
+2026-05-31T05:19:20.927Z [info]: Bundle finalized: 776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714
+2026-05-31T05:19:20.930Z [info]: Bundle 7 complete: 776acac7dec61835e6a8854c9696f0ad40db7b52d4317b6c5aea5aeb3dfcd714
+2026-05-31T05:19:23.931Z [info]: Submitting bundle 8/8...
+2026-05-31T05:19:23.934Z [info]: Starting bundle submission 9b6363bf-2ca8-4f5e-a563-a5b98750b79b
+2026-05-31T05:19:23.935Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 9b6363bf-2ca8-4f5e-a563-a5b98750b79b...
+AI Reasoning logged for bundle 9b6363bf-2ca8-4f5e-a563-a5b98750b79b
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low; submit now.
+2026-05-31T05:19:39.741Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 9b6363bf-2ca8-4f5e-a563-a5b98750b79b...
+AI Reasoning logged for bundle 9b6363bf-2ca8-4f5e-a563-a5b98750b79b
+AI Tip Decision: 5000 lamports
+AI Reasoning: Median tip is ~2803 lamports; 5000 adds a modest buffer while staying cost-efficient.
+2026-05-31T05:20:18.833Z [info]: AI recommended tip: 5000 lamports
+Using tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+2026-05-31T05:20:19.536Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad","id":"3cd845e9-c682-4826-9c54-13b0b70de5a9"}
+2026-05-31T05:20:20.418Z [info]: Bundle submitted successfully: ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad
+2026-05-31T05:20:20.419Z [info]: Confirming via gRPC stream...
+Confirming bundle ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad via stream...
+Stream subscription active for bundle 9b6363bf-2ca8-4f5e-a563-a5b98750b79b
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Stream received transaction at slot 423309522
+Bundle confirmed via stream at slot 423309522
+2026-05-31T05:20:24.162Z [info]: Bundle finalized: ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad
+2026-05-31T05:20:24.183Z [info]: Bundle 8 complete: ffb6c98056cf6e6f5d3fbebf1016bd70617d0551eb00f603e314d8a21eacb7ad
+2026-05-31T05:20:27.184Z [info]: === PHASE 2: Fault Injection (2 failure cases) ===
+2026-05-31T05:20:27.185Z [info]: Failure case 1: Simulating blockhash expiry...
+2026-05-31T05:20:27.188Z [info]: Starting bundle submission 7aa885c3-ac2f-4f40-8a7d-0179098fabc9
+2026-05-31T05:20:27.188Z [info]: Simulating blockhash expiry fault injection...
+🔴 FAULT INJECTION: Simulating blockhash expiry...
+🔴 FAULT INJECTION: Blockhash set to expired (slot age: 160 slots)
+2026-05-31T05:20:27.220Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 7aa885c3-ac2f-4f40-8a7d-0179098fabc9...
+Refreshing blockhash...
+Blockhash refreshed: 24ircv6e9sB3Y49qAMuhpcGzo15q9xZSJAe4eg64ZTT4 at slot 466113055
+AI Reasoning logged for bundle 7aa885c3-ac2f-4f40-8a7d-0179098fabc9
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low enough to submit now.
+2026-05-31T05:20:42.426Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 7aa885c3-ac2f-4f40-8a7d-0179098fabc9...
+AI Reasoning logged for bundle 7aa885c3-ac2f-4f40-8a7d-0179098fabc9
+AI Tip Decision: 5000 lamports
+AI Reasoning: Low congestion allows a small tip; 5000 lamports is above 75th percentile for stronger landing while remaining cost efficient.
+2026-05-31T05:20:56.975Z [info]: AI recommended tip: 5000 lamports
+Using tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+2026-05-31T05:20:57.817Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: 84DrGKhycCUGfLzw8hXsUYX9SnWdh2wW3ozsTPrC5xyg
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"484f3568edc57fd370aafa830d1b5f5deb10ed91823c576899f000a71f75a597","id":"2b975114-d184-493f-9f78-9a2421cd17b8"}
+2026-05-31T05:20:58.741Z [info]: Bundle submitted successfully: 484f3568edc57fd370aafa830d1b5f5deb10ed91823c576899f000a71f75a597
+2026-05-31T05:20:58.742Z [info]: Confirming via gRPC stream...
+Confirming bundle 484f3568edc57fd370aafa830d1b5f5deb10ed91823c576899f000a71f75a597 via stream...
+Stream subscription active for bundle 7aa885c3-ac2f-4f40-8a7d-0179098fabc9
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Stream received transaction at slot 423309622
+Bundle confirmed via stream at slot 423309622
+2026-05-31T05:21:02.008Z [info]: Bundle finalized: 484f3568edc57fd370aafa830d1b5f5deb10ed91823c576899f000a71f75a597
+2026-05-31T05:21:05.011Z [info]: Failure case 2: Simulating blockhash expiry again...
+2026-05-31T05:21:05.013Z [info]: Starting bundle submission 0033f0f9-0e71-41a4-92d3-9c64b1062343
+2026-05-31T05:21:05.014Z [info]: Simulating blockhash expiry fault injection...
+🔴 FAULT INJECTION: Simulating blockhash expiry...
+🔴 FAULT INJECTION: Blockhash set to expired (slot age: 160 slots)
+2026-05-31T05:21:05.014Z [info]: AI Agent deciding submission timing...
+AI Agent deciding submission timing for bundle 0033f0f9-0e71-41a4-92d3-9c64b1062343...
+AI Reasoning logged for bundle 0033f0f9-0e71-41a4-92d3-9c64b1062343
+AI Timing Decision: SUBMIT NOW
+AI Reasoning: Congestion is low; submit now.
+2026-05-31T05:21:20.295Z [info]: AI Agent deciding tip amount...
+AI Agent deciding tip for bundle 0033f0f9-0e71-41a4-92d3-9c64b1062343...
+AI Reasoning logged for bundle 0033f0f9-0e71-41a4-92d3-9c64b1062343
+AI Tip Decision: 5000 lamports
+AI Reasoning: Slightly above the 75th percentile to improve landing probability while keeping cost low.
+2026-05-31T05:21:31.540Z [info]: AI recommended tip: 5000 lamports
+2026-05-31T05:21:32.205Z [info]: Blockhash expired, refreshing...
+Refreshing blockhash...
+Blockhash refreshed: 89tFrL4D9YGPt72aVoqqV9iYfqczTaP8jUbJdhqD4hK1 at slot 466113199
+Using tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+2026-05-31T05:21:32.562Z [info]: Submitting bundle to Jito devnet block engine...
+Submitting 2 transactions to Jito devnet
+Tip account: CwWZzvRgmxj9WLLhdoWUVrHZ1J8db3w2iptKuAitHqoC
+Tip amount: 5000 lamports
+Jito response: {"jsonrpc":"2.0","result":"92895328f231f068ea54593e6d37da4577a697f2b70596c94f7c84f8a5fec9d5","id":"98e45acf-e4df-409e-91ae-dcc41de24519"}
+2026-05-31T05:21:33.555Z [info]: Bundle submitted successfully: 92895328f231f068ea54593e6d37da4577a697f2b70596c94f7c84f8a5fec9d5
+2026-05-31T05:21:33.556Z [info]: Confirming via gRPC stream...
+Confirming bundle 92895328f231f068ea54593e6d37da4577a697f2b70596c94f7c84f8a5fec9d5 via stream...
+Stream subscription active for bundle 0033f0f9-0e71-41a4-92d3-9c64b1062343
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Stream received transaction at slot 423309709
+Bundle confirmed via stream at slot 423309709
+2026-05-31T05:21:36.877Z [info]: Bundle finalized: 92895328f231f068ea54593e6d37da4577a697f2b70596c94f7c84f8a5fec9d5
+2026-05-31T05:21:36.882Z [info]: === DEMO COMPLETE ===
