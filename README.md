@@ -12,7 +12,7 @@ A production-grade AI-powered Solana transaction infrastructure stack built for 
 
 Real usage from SolInfra dashboard showing our system ran on production infrastructure.
 
-### gRPC Stream — 384.45 MB Streamed (Frankfurt Region)
+### gRPC Stream — 1.08 GB Streamed (Frankfurt Region)
 
 
 ![gRPC Usage](docs/diagrams/Screenshot_20260531-062932.jpg)
