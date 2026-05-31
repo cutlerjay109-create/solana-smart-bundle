@@ -529,7 +529,7 @@ solana-smart-bundle/
 | RPC | SolInfra Frankfurt | Transaction submission and queries |
 | gRPC | SolInfra Yellowstone | Live slot streaming and tx confirmation |
 | Bundle Engine | Jito Dallas Testnet | Bundle submission |
-| AI | freemodel.dev GPT-5.5 | Autonomous decision making |
+| AI |  GPT-5.5 | Autonomous decision making |
 | Network | Solana Devnet | Blockchain |
 
 ---
@@ -550,4 +550,4 @@ MIT
 
 ---
 
-*Built for the Solana Transaction Infrastructure Bounty | Solo submission*
+*Built for the Solana Transaction Infrastructure Bounty*
